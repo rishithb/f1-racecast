@@ -15,3 +15,5 @@ def get_car_data(driver_number: int, session_key: int, speed: int):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000, log_level="info")
+
+# source /Users/rishithbandi/repos/f1-racecast/backend/venv/bin/activate
