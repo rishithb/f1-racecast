@@ -4,12 +4,15 @@
   "private": true,
   "dependencies": {
     "axios": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
     "cra-template": "1.2.0",
     "crypto-browserify": "^3.12.1",
+    "crypto-es": "^2.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "whatwg-fetch": "^3.6.20"
   },
   "scripts": {
     "start": "react-scripts start",
